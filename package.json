@@ -1,0 +1,12 @@
+{
+  "name": "sysscope",
+  "version": "1.1.0",
+  "description": "Windows Process & Working Set Memory Monitor with React UI",
+  "scripts": {
+    "start": "npm --prefix ui run dev",
+    "dev": "npm --prefix ui run dev",
+    "build": "npm --prefix ui run build",
+    "serve": "npm --prefix ui run start",
+    "build:cpp": "g++ -std=c++14 -Wall -Wextra src/main.cpp -o sysscope.exe -lpsapi"
+  }
+}
